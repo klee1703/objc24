@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7983D1AA15228E7A0037A611 /* XMLStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983D1A915228E7A0037A611 /* XMLStreamParser.m */; };
+		7983D1AE15228F270037A611 /* TargetElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983D1AD15228F270037A611 /* TargetElement.m */; };
+		7983D1B11522AB850037A611 /* XMLTreeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983D1B01522AB850037A611 /* XMLTreeParser.m */; };
+		79B8A4CA15213FB800E7B44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B8A4C915213FB800E7B44C /* Foundation.framework */; };
+		79B8A4CD15213FB800E7B44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B8A4CC15213FB800E7B44C /* main.m */; };
+		79B8A4D115213FB800E7B44C /* XmlReader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79B8A4D015213FB800E7B44C /* XmlReader.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79B8A4C315213FB800E7B44C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				79B8A4D115213FB800E7B44C /* XmlReader.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7983D1A815228E7A0037A611 /* XMLStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLStreamParser.h; path = parser/XMLStreamParser.h; sourceTree = "<group>"; };
+		7983D1A915228E7A0037A611 /* XMLStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLStreamParser.m; path = parser/XMLStreamParser.m; sourceTree = "<group>"; };
+		7983D1AC15228F270037A611 /* TargetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetElement.h; sourceTree = "<group>"; };
+		7983D1AD15228F270037A611 /* TargetElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetElement.m; sourceTree = "<group>"; };
+		7983D1AF1522AB850037A611 /* XMLTreeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLTreeParser.h; path = parser/XMLTreeParser.h; sourceTree = "<group>"; };
+		7983D1B01522AB850037A611 /* XMLTreeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLTreeParser.m; path = parser/XMLTreeParser.m; sourceTree = "<group>"; };
+		79B8A4C515213FB800E7B44C /* XmlReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XmlReader; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B8A4C915213FB800E7B44C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79B8A4CC15213FB800E7B44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79B8A4CF15213FB800E7B44C /* XmlReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XmlReader-Prefix.pch"; sourceTree = "<group>"; };
+		79B8A4D015213FB800E7B44C /* XmlReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XmlReader.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B8A4C215213FB800E7B44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B8A4CA15213FB800E7B44C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B8A4BA15213FB700E7B44C = {
+			isa = PBXGroup;
+			children = (
+				79B8A4CB15213FB800E7B44C /* XmlReader */,
+				79B8A4C815213FB800E7B44C /* Frameworks */,
+				79B8A4C615213FB800E7B44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79B8A4C615213FB800E7B44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B8A4C515213FB800E7B44C /* XmlReader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79B8A4C815213FB800E7B44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B8A4C915213FB800E7B44C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B8A4CB15213FB800E7B44C /* XmlReader */ = {
+			isa = PBXGroup;
+			children = (
+				79B8A4CC15213FB800E7B44C /* main.m */,
+				79E1F53B152FC6FC00E8863B /* parser */,
+				7983D1AC15228F270037A611 /* TargetElement.h */,
+				7983D1AD15228F270037A611 /* TargetElement.m */,
+				79B8A4D015213FB800E7B44C /* XmlReader.1 */,
+				79B8A4CE15213FB800E7B44C /* Supporting Files */,
+			);
+			path = XmlReader;
+			sourceTree = "<group>";
+		};
+		79B8A4CE15213FB800E7B44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B8A4CF15213FB800E7B44C /* XmlReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E1F53B152FC6FC00E8863B /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				7983D1AF1522AB850037A611 /* XMLTreeParser.h */,
+				7983D1B01522AB850037A611 /* XMLTreeParser.m */,
+				7983D1A815228E7A0037A611 /* XMLStreamParser.h */,
+				7983D1A915228E7A0037A611 /* XMLStreamParser.m */,
+			);
+			name = parser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79B8A4C415213FB800E7B44C /* XmlReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B8A4D415213FB800E7B44C /* Build configuration list for PBXNativeTarget "XmlReader" */;
+			buildPhases = (
+				79B8A4C115213FB800E7B44C /* Sources */,
+				79B8A4C215213FB800E7B44C /* Frameworks */,
+				79B8A4C315213FB800E7B44C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmlReader;
+			productName = XmlReader;
+			productReference = 79B8A4C515213FB800E7B44C /* XmlReader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79B8A4BC15213FB800E7B44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 79B8A4BF15213FB800E7B44C /* Build configuration list for PBXProject "XmlReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79B8A4BA15213FB700E7B44C;
+			productRefGroup = 79B8A4C615213FB800E7B44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79B8A4C415213FB800E7B44C /* XmlReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79B8A4C115213FB800E7B44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B8A4CD15213FB800E7B44C /* main.m in Sources */,
+				7983D1AA15228E7A0037A611 /* XMLStreamParser.m in Sources */,
+				7983D1AE15228F270037A611 /* TargetElement.m in Sources */,
+				7983D1B11522AB850037A611 /* XMLTreeParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79B8A4D215213FB800E7B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79B8A4D315213FB800E7B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79B8A4D515213FB800E7B44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XmlReader/XmlReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79B8A4D615213FB800E7B44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XmlReader/XmlReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B8A4BF15213FB800E7B44C /* Build configuration list for PBXProject "XmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B8A4D215213FB800E7B44C /* Debug */,
+				79B8A4D315213FB800E7B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B8A4D415213FB800E7B44C /* Build configuration list for PBXNativeTarget "XmlReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B8A4D515213FB800E7B44C /* Debug */,
+				79B8A4D615213FB800E7B44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79B8A4BC15213FB800E7B44C /* Project object */;
+}

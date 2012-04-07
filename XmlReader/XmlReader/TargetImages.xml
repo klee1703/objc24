@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : TargetImages.xml
+    Created on : April 7, 2011, 11:34 AM
+    Author     : Keith.Lee
+    Description:
+        Purpose of the document follows.
+-->
+
+<ns0:Targets  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns:ns0='http://xml.netbeans.org/schema/TargetImages'
+   xsi:schemaLocation='http://xml.netbeans.org/schema/TargetImages TargetImages.xsd'>
+  <ns0:Description></ns0:Description>
+  <ns0:DetectionConfidence>0.55</ns0:DetectionConfidence>
+  <ns0:HorizontalScroll>-2</ns0:HorizontalScroll>
+  <ns0:VerticalScroll>-2</ns0:VerticalScroll>
+  <ns0:Targeter>com.pellago.detector.target.DefaultTargeter</ns0:Targeter>
+<!--
+  <ns0:Imager></ns0:Imager>
+-->
+  <ns0:TargetElement>
+    <ns0:ImageFile>Torpedo.blf</ns0:ImageFile>
+    <ns0:ImageType>0</ns0:ImageType>
+  </ns0:TargetElement>
+  <ns0:TargetElement>
+    <ns0:ImageFile>Starship.blf</ns0:ImageFile>
+    <ns0:ImageType>1</ns0:ImageType>
+  </ns0:TargetElement>
+  <ns0:TargetElement>
+    <ns0:ImageFile>Phaser.blf</ns0:ImageFile>
+    <ns0:ImageType>2</ns0:ImageType>
+  </ns0:TargetElement>
+
+</ns0:Targets>

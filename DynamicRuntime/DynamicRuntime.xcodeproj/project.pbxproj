@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		799D828F14BA2FB6003F1D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799D828E14BA2FB6003F1D7A /* Foundation.framework */; };
+		799D829214BA2FB6003F1D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D829114BA2FB6003F1D7A /* main.m */; };
+		799D829614BA2FB6003F1D7A /* DynamicRuntime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 799D829514BA2FB6003F1D7A /* DynamicRuntime.1 */; };
+		799D829F14BA30B2003F1D7A /* Carnivore.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D829E14BA30B2003F1D7A /* Carnivore.m */; };
+		799D82A214BA316B003F1D7A /* Herbivore.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D82A114BA316B003F1D7A /* Herbivore.m */; };
+		799D82A514BA323A003F1D7A /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D82A414BA323A003F1D7A /* Mammal.m */; };
+		799D82A914BA3441003F1D7A /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D82A814BA3441003F1D7A /* Box.m */; };
+		799D82AC14BA4E2D003F1D7A /* MessageSwallower.m in Sources */ = {isa = PBXBuildFile; fileRef = 799D82AB14BA4E2D003F1D7A /* MessageSwallower.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		799D828814BA2FB6003F1D7A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				799D829614BA2FB6003F1D7A /* DynamicRuntime.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		799D828A14BA2FB6003F1D7A /* DynamicRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
+		799D828E14BA2FB6003F1D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		799D829114BA2FB6003F1D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		799D829414BA2FB6003F1D7A /* DynamicRuntime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicRuntime-Prefix.pch"; sourceTree = "<group>"; };
+		799D829514BA2FB6003F1D7A /* DynamicRuntime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DynamicRuntime.1; sourceTree = "<group>"; };
+		799D829D14BA30B2003F1D7A /* Carnivore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carnivore.h; sourceTree = "<group>"; };
+		799D829E14BA30B2003F1D7A /* Carnivore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carnivore.m; sourceTree = "<group>"; };
+		799D82A014BA316B003F1D7A /* Herbivore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Herbivore.h; sourceTree = "<group>"; };
+		799D82A114BA316B003F1D7A /* Herbivore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Herbivore.m; sourceTree = "<group>"; };
+		799D82A314BA323A003F1D7A /* Mammal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mammal.h; sourceTree = "<group>"; };
+		799D82A414BA323A003F1D7A /* Mammal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mammal.m; sourceTree = "<group>"; };
+		799D82A614BA331C003F1D7A /* MammalProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MammalProtocol.h; sourceTree = "<group>"; };
+		799D82A714BA3441003F1D7A /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		799D82A814BA3441003F1D7A /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		799D82AA14BA4E2D003F1D7A /* MessageSwallower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSwallower.h; sourceTree = "<group>"; };
+		799D82AB14BA4E2D003F1D7A /* MessageSwallower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSwallower.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799D828714BA2FB6003F1D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799D828F14BA2FB6003F1D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799D827F14BA2FB5003F1D7A = {
+			isa = PBXGroup;
+			children = (
+				799D829014BA2FB6003F1D7A /* DynamicRuntime */,
+				799D828D14BA2FB6003F1D7A /* Frameworks */,
+				799D828B14BA2FB6003F1D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		799D828B14BA2FB6003F1D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799D828A14BA2FB6003F1D7A /* DynamicRuntime */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		799D828D14BA2FB6003F1D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				799D828E14BA2FB6003F1D7A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		799D829014BA2FB6003F1D7A /* DynamicRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				799D829114BA2FB6003F1D7A /* main.m */,
+				799D829514BA2FB6003F1D7A /* DynamicRuntime.1 */,
+				799D829314BA2FB6003F1D7A /* Supporting Files */,
+				799D829D14BA30B2003F1D7A /* Carnivore.h */,
+				799D829E14BA30B2003F1D7A /* Carnivore.m */,
+				799D82A014BA316B003F1D7A /* Herbivore.h */,
+				799D82A114BA316B003F1D7A /* Herbivore.m */,
+				799D82A314BA323A003F1D7A /* Mammal.h */,
+				799D82A414BA323A003F1D7A /* Mammal.m */,
+				799D82A614BA331C003F1D7A /* MammalProtocol.h */,
+				799D82A714BA3441003F1D7A /* Box.h */,
+				799D82A814BA3441003F1D7A /* Box.m */,
+				799D82AA14BA4E2D003F1D7A /* MessageSwallower.h */,
+				799D82AB14BA4E2D003F1D7A /* MessageSwallower.m */,
+			);
+			path = DynamicRuntime;
+			sourceTree = "<group>";
+		};
+		799D829314BA2FB6003F1D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				799D829414BA2FB6003F1D7A /* DynamicRuntime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799D828914BA2FB6003F1D7A /* DynamicRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799D829914BA2FB6003F1D7A /* Build configuration list for PBXNativeTarget "DynamicRuntime" */;
+			buildPhases = (
+				799D828614BA2FB6003F1D7A /* Sources */,
+				799D828714BA2FB6003F1D7A /* Frameworks */,
+				799D828814BA2FB6003F1D7A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicRuntime;
+			productName = DynamicRuntime;
+			productReference = 799D828A14BA2FB6003F1D7A /* DynamicRuntime */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799D828114BA2FB5003F1D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 799D828414BA2FB5003F1D7A /* Build configuration list for PBXProject "DynamicRuntime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 799D827F14BA2FB5003F1D7A;
+			productRefGroup = 799D828B14BA2FB6003F1D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799D828914BA2FB6003F1D7A /* DynamicRuntime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799D828614BA2FB6003F1D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799D829214BA2FB6003F1D7A /* main.m in Sources */,
+				799D829F14BA30B2003F1D7A /* Carnivore.m in Sources */,
+				799D82A214BA316B003F1D7A /* Herbivore.m in Sources */,
+				799D82A514BA323A003F1D7A /* Mammal.m in Sources */,
+				799D82A914BA3441003F1D7A /* Box.m in Sources */,
+				799D82AC14BA4E2D003F1D7A /* MessageSwallower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		799D829714BA2FB6003F1D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		799D829814BA2FB6003F1D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		799D829A14BA2FB6003F1D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicRuntime/DynamicRuntime-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		799D829B14BA2FB6003F1D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicRuntime/DynamicRuntime-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799D828414BA2FB5003F1D7A /* Build configuration list for PBXProject "DynamicRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799D829714BA2FB6003F1D7A /* Debug */,
+				799D829814BA2FB6003F1D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799D829914BA2FB6003F1D7A /* Build configuration list for PBXNativeTarget "DynamicRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799D829A14BA2FB6003F1D7A /* Debug */,
+				799D829B14BA2FB6003F1D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799D828114BA2FB5003F1D7A /* Project object */;
+}

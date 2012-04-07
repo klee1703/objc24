@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C12B0B14C64DDB00B545CE /* GrayCodeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12B0A14C64DDB00B545CE /* GrayCodeConverter.m */; };
+		79C12B0D14C6555900B545CE /* GrayCodeConverter.h in Sources */ = {isa = PBXBuildFile; fileRef = 79C12B0914C64DDB00B545CE /* GrayCodeConverter.h */; };
+		79C12B0E14C6555900B545CE /* GrayCodeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12B0A14C64DDB00B545CE /* GrayCodeConverter.m */; };
+		79D432F914BE9B300089B5D2 /* FixedPointConverter.h in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A31B14BE836500A1D0EC /* FixedPointConverter.h */; };
+		79D432FA14BE9B300089B5D2 /* FixedPointConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A31C14BE836500A1D0EC /* FixedPointConverter.m */; };
+		79F7A30E14BE834100A1D0EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F7A30D14BE834100A1D0EC /* Foundation.framework */; };
+		79F7A31114BE834100A1D0EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A31014BE834100A1D0EC /* main.m */; };
+		79F7A31514BE834100A1D0EC /* NumberConverter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79F7A31414BE834100A1D0EC /* NumberConverter.1 */; };
+		79F7A31D14BE836500A1D0EC /* FixedPointConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A31C14BE836500A1D0EC /* FixedPointConverter.m */; };
+		79F7A32514BE85F700A1D0EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F7A32414BE85F700A1D0EC /* SenTestingKit.framework */; };
+		79F7A32714BE85F700A1D0EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F7A32614BE85F700A1D0EC /* Cocoa.framework */; };
+		79F7A33114BE85F700A1D0EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79F7A32F14BE85F700A1D0EC /* InfoPlist.strings */; };
+		79F7A33314BE85F700A1D0EC /* NumberConverterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 79F7A33214BE85F700A1D0EC /* NumberConverterTests.h */; };
+		79F7A33514BE85F700A1D0EC /* NumberConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A33414BE85F700A1D0EC /* NumberConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79F7A30714BE834100A1D0EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				79F7A31514BE834100A1D0EC /* NumberConverter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79C12B0914C64DDB00B545CE /* GrayCodeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayCodeConverter.h; sourceTree = "<group>"; };
+		79C12B0A14C64DDB00B545CE /* GrayCodeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayCodeConverter.m; sourceTree = "<group>"; };
+		79F7A30914BE834100A1D0EC /* NumberConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F7A30D14BE834100A1D0EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79F7A31014BE834100A1D0EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F7A31314BE834100A1D0EC /* NumberConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberConverter-Prefix.pch"; sourceTree = "<group>"; };
+		79F7A31414BE834100A1D0EC /* NumberConverter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumberConverter.1; sourceTree = "<group>"; };
+		79F7A31B14BE836500A1D0EC /* FixedPointConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPointConverter.h; sourceTree = "<group>"; };
+		79F7A31C14BE836500A1D0EC /* FixedPointConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPointConverter.m; sourceTree = "<group>"; };
+		79F7A32314BE85F700A1D0EC /* NumberConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F7A32414BE85F700A1D0EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79F7A32614BE85F700A1D0EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		79F7A32914BE85F700A1D0EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79F7A32A14BE85F700A1D0EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79F7A32B14BE85F700A1D0EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79F7A32E14BE85F700A1D0EC /* NumberConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberConverterTests-Info.plist"; sourceTree = "<group>"; };
+		79F7A33014BE85F700A1D0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79F7A33214BE85F700A1D0EC /* NumberConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberConverterTests.h; sourceTree = "<group>"; };
+		79F7A33414BE85F700A1D0EC /* NumberConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberConverterTests.m; sourceTree = "<group>"; };
+		79F7A33614BE85F700A1D0EC /* NumberConverterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberConverterTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F7A30614BE834100A1D0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F7A30E14BE834100A1D0EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7A31F14BE85F700A1D0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F7A32514BE85F700A1D0EC /* SenTestingKit.framework in Frameworks */,
+				79F7A32714BE85F700A1D0EC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F7A2FE14BE834100A1D0EC = {
+			isa = PBXGroup;
+			children = (
+				79F7A30F14BE834100A1D0EC /* NumberConverter */,
+				79F7A32C14BE85F700A1D0EC /* NumberConverterTests */,
+				79F7A30C14BE834100A1D0EC /* Frameworks */,
+				79F7A30A14BE834100A1D0EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F7A30A14BE834100A1D0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A30914BE834100A1D0EC /* NumberConverter */,
+				79F7A32314BE85F700A1D0EC /* NumberConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F7A30C14BE834100A1D0EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A30D14BE834100A1D0EC /* Foundation.framework */,
+				79F7A32414BE85F700A1D0EC /* SenTestingKit.framework */,
+				79F7A32614BE85F700A1D0EC /* Cocoa.framework */,
+				79F7A32814BE85F700A1D0EC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F7A30F14BE834100A1D0EC /* NumberConverter */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A31014BE834100A1D0EC /* main.m */,
+				79F7A31414BE834100A1D0EC /* NumberConverter.1 */,
+				79F7A31214BE834100A1D0EC /* Supporting Files */,
+				79F7A31B14BE836500A1D0EC /* FixedPointConverter.h */,
+				79F7A31C14BE836500A1D0EC /* FixedPointConverter.m */,
+				79C12B0914C64DDB00B545CE /* GrayCodeConverter.h */,
+				79C12B0A14C64DDB00B545CE /* GrayCodeConverter.m */,
+			);
+			path = NumberConverter;
+			sourceTree = "<group>";
+		};
+		79F7A31214BE834100A1D0EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A31314BE834100A1D0EC /* NumberConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F7A32814BE85F700A1D0EC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A32914BE85F700A1D0EC /* AppKit.framework */,
+				79F7A32A14BE85F700A1D0EC /* CoreData.framework */,
+				79F7A32B14BE85F700A1D0EC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79F7A32C14BE85F700A1D0EC /* NumberConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A33214BE85F700A1D0EC /* NumberConverterTests.h */,
+				79F7A33414BE85F700A1D0EC /* NumberConverterTests.m */,
+				79F7A32D14BE85F700A1D0EC /* Supporting Files */,
+			);
+			path = NumberConverterTests;
+			sourceTree = "<group>";
+		};
+		79F7A32D14BE85F700A1D0EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A32E14BE85F700A1D0EC /* NumberConverterTests-Info.plist */,
+				79F7A32F14BE85F700A1D0EC /* InfoPlist.strings */,
+				79F7A33614BE85F700A1D0EC /* NumberConverterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F7A30814BE834100A1D0EC /* NumberConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F7A31814BE834100A1D0EC /* Build configuration list for PBXNativeTarget "NumberConverter" */;
+			buildPhases = (
+				79F7A30514BE834100A1D0EC /* Sources */,
+				79F7A30614BE834100A1D0EC /* Frameworks */,
+				79F7A30714BE834100A1D0EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberConverter;
+			productName = NumberConverter;
+			productReference = 79F7A30914BE834100A1D0EC /* NumberConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+		79F7A32214BE85F700A1D0EC /* NumberConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F7A33714BE85F700A1D0EC /* Build configuration list for PBXNativeTarget "NumberConverterTests" */;
+			buildPhases = (
+				79F7A31E14BE85F700A1D0EC /* Sources */,
+				79F7A31F14BE85F700A1D0EC /* Frameworks */,
+				79F7A32014BE85F700A1D0EC /* Resources */,
+				79F7A32114BE85F700A1D0EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberConverterTests;
+			productName = NumberConverterTests;
+			productReference = 79F7A32314BE85F700A1D0EC /* NumberConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F7A30014BE834100A1D0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 79F7A30314BE834100A1D0EC /* Build configuration list for PBXProject "NumberConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79F7A2FE14BE834100A1D0EC;
+			productRefGroup = 79F7A30A14BE834100A1D0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F7A30814BE834100A1D0EC /* NumberConverter */,
+				79F7A32214BE85F700A1D0EC /* NumberConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F7A32014BE85F700A1D0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F7A33114BE85F700A1D0EC /* InfoPlist.strings in Resources */,
+				79F7A33314BE85F700A1D0EC /* NumberConverterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79F7A32114BE85F700A1D0EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F7A30514BE834100A1D0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F7A31114BE834100A1D0EC /* main.m in Sources */,
+				79F7A31D14BE836500A1D0EC /* FixedPointConverter.m in Sources */,
+				79C12B0B14C64DDB00B545CE /* GrayCodeConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7A31E14BE85F700A1D0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C12B0D14C6555900B545CE /* GrayCodeConverter.h in Sources */,
+				79C12B0E14C6555900B545CE /* GrayCodeConverter.m in Sources */,
+				79D432F914BE9B300089B5D2 /* FixedPointConverter.h in Sources */,
+				79D432FA14BE9B300089B5D2 /* FixedPointConverter.m in Sources */,
+				79F7A33514BE85F700A1D0EC /* NumberConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79F7A32F14BE85F700A1D0EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F7A33014BE85F700A1D0EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F7A31614BE834100A1D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79F7A31714BE834100A1D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79F7A31914BE834100A1D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79F7A31A14BE834100A1D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverter/NumberConverter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79F7A33814BE85F700A1D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverterTests/NumberConverterTests-Prefix.pch";
+				INFOPLIST_FILE = "NumberConverterTests/NumberConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79F7A33914BE85F700A1D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverterTests/NumberConverterTests-Prefix.pch";
+				INFOPLIST_FILE = "NumberConverterTests/NumberConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F7A30314BE834100A1D0EC /* Build configuration list for PBXProject "NumberConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7A31614BE834100A1D0EC /* Debug */,
+				79F7A31714BE834100A1D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F7A31814BE834100A1D0EC /* Build configuration list for PBXNativeTarget "NumberConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7A31914BE834100A1D0EC /* Debug */,
+				79F7A31A14BE834100A1D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F7A33714BE85F700A1D0EC /* Build configuration list for PBXNativeTarget "NumberConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7A33814BE85F700A1D0EC /* Debug */,
+				79F7A33914BE85F700A1D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F7A30014BE834100A1D0EC /* Project object */;
+}
