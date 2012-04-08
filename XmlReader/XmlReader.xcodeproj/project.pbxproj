@@ -37,7 +37,7 @@
 		7983D1B01522AB850037A611 /* XMLTreeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLTreeParser.m; path = parser/XMLTreeParser.m; sourceTree = "<group>"; };
 		79B8A4C515213FB800E7B44C /* XmlReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XmlReader; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B8A4C915213FB800E7B44C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		79B8A4CC15213FB800E7B44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79B8A4CC15213FB800E7B44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = XmlReader/main.m; sourceTree = SOURCE_ROOT; };
 		79B8A4CF15213FB800E7B44C /* XmlReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XmlReader-Prefix.pch"; sourceTree = "<group>"; };
 		79B8A4D015213FB800E7B44C /* XmlReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XmlReader.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */

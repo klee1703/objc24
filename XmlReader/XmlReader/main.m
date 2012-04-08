@@ -41,14 +41,19 @@ int main (int argc, const char * argv[])
 {
   BOOL isError = NO;
   @autoreleasepool 
-  {      
+  {
+    NSDictionary *environment = [[NSProcessInfo processInfo] environment];
+    NSString *homePath = [environment objectForKey:@"HOME"];
+    NSString *fileName = @"TargetImages.xml";
+    
     // Retrieve command line arguments
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *filePath = [defaults stringForKey:@"f"];
     if (filePath == nil)
     {
-      filePath = @"file:///Users/klee/TargetImages.xml";
+      filePath = [NSString stringWithFormat:@"file://%@/data/%@", homePath, fileName];
     }
+    NSLog(@"File path = %@", filePath);
     
     NSLog(@"\n\n**** Creating targets with tree parser ****");
     XMLTreeParser *treeParser = [[XMLTreeParser alloc] initWithFilePath:(NSString *)filePath];
