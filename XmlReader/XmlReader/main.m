@@ -40,10 +40,12 @@
 int main (int argc, const char * argv[])
 {
   BOOL isError = NO;
+  NSString *const HOME_KEY = @"HOME";
+  
   @autoreleasepool 
   {
     NSDictionary *environment = [[NSProcessInfo processInfo] environment];
-    NSString *homePath = [environment objectForKey:@"HOME"];
+    NSString *homePath = [environment objectForKey:HOME_KEY];
     NSString *fileName = @"TargetImages.xml";
     
     // Retrieve command line arguments
